@@ -19,7 +19,7 @@ Sistema de interconexión, enrutamiento y cifrado para la **Plataforma Única de
 ### 1. Preparación del Entorno
 Clona el repositorio en tu servidor web (por ejemplo, en `/var/www/html/pui`):
 ```bash
-git clone https://github.com/tu-usuario/hub-pui-central.git /var/www/html/pui
+git clone https://github.com/ProyectosDIT/PUI /var/www/html/pui
 cd /var/www/html/pui
 ```
 
