@@ -1,0 +1,15 @@
+/* /var/www/html/dit/tools/pui/assets/css/style.css */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap');
+
+body { font-family: 'Montserrat', sans-serif; background-color: #f0f2f5; color: #212529; }
+
+/* Login */
+.login-bg { background-color: #e9ecef; }
+.login-card { border-radius: 1rem; max-width: 450px; width: 100%; border: none; }
+.btn-google { background-color: #ffffff; color: #333; border: 1px solid #ddd; transition: all 0.2s; }
+.btn-google:hover { background-color: #f8f9fa; transform: translateY(-2px); }
+
+/* Dashboard Nav */
+.top-navbar { background: linear-gradient(90deg, #1e293b, #0f172a); }
+.custom-nav-tabs .nav-link { color: #6c757d; border: none; border-bottom: 3px solid transparent; padding: 15px 20px; }
+.custom-nav-tabs .nav-link.active { color: #0d6efd; border-bottom: 3px solid #0d6efd; background: transparent; }

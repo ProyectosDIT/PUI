@@ -1,0 +1,9 @@
+Options -Indexes +FollowSymLinks
+RewriteEngine On
+
+# 1. Si el archivo o carpeta existe físicamente, NO reescribir la URL (Deja pasar a app.php, index.php, etc.)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# 2. Si es una ruta limpia del API, enrutar silenciosamente a api_pui.php
+RewriteRule ^api/([A-Z0-9]+)/([a-zA-Z0-9-]+)/?$ api_pui.php?tenant=$1&ep=$2 [L,QSA]
