@@ -125,4 +125,4 @@ Agrega la siguiente línea (ajusta las rutas según corresponda):
 ---
 
 ## 🛡️ Consideraciones de Ciberseguridad
-- **Aislamiento:** Asegúrate de que los puertos de las bases de datos de las Universidades (ej. 33
+- **Aislamiento:** Asegúrate de que los puertos de las bases de datos de las Universidades (ej. 33)
